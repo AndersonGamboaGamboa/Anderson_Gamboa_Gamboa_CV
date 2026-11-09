@@ -7,6 +7,7 @@ Fecha: 9 de noviembre de 2026.
 | Ganado Manager | Lectura de código y del resultado de CI del commit 837de66 | Regresión e integración MySQL aprobadas | Nueva ejecución local, interfaz y dispositivos |
 | Porcino Manager | 9 archivos de pruebas móviles existentes sobre la fuente revisada | 47 aprobadas, 0 fallidas | Servidor, lint, tipos, exportación y APK |
 | Cosecha Manager | 3 archivos de pruebas existentes de dominio/ajustes/estado de cuenta | 13 aprobadas, 0 fallidas | Resto de la suite, lint, tipos, exportación, autenticación y dispositivos |
+| GAMA | Inspección del árbol y código de registro, login y administración del commit e7c2a5c | Se observaron capas, BCrypt y autorización administrativa; sin ejecución | Compilación, pruebas automatizadas, base de datos e interfaz |
 
 ## Reproducción de las pruebas locales
 
