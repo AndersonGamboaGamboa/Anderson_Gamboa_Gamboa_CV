@@ -9,6 +9,10 @@ Fecha: 9 de noviembre de 2026.
 | Cosecha Manager | 3 archivos de pruebas existentes de dominio/ajustes/estado de cuenta | 13 aprobadas, 0 fallidas | Resto de la suite, lint, tipos, exportación, autenticación y dispositivos |
 | GAMA | Inspección del árbol y código de registro, login y administración del commit e7c2a5c | Se observaron capas, BCrypt y autorización administrativa; sin ejecución | Compilación, pruebas automatizadas, base de datos e interfaz |
 
+| Escuela Fausto Herrera Cordero | Carga en Chrome de 56 páginas, 33 comprobaciones de sintaxis y 2 escenarios funcionales | Todas las páginas respondieron 200; 1 página con error JS, 38 referencias locales incorrectas; login y persistencia simulados | Flujos completos, backend, seguridad operativa y comportamiento móvil |
+
+[Detalle del prototipo escolar y procedencia](proyectos/fausto-gestion-academica.md).
+
 ## Reproducción de las pruebas locales
 
 Desde la raíz de un checkout de Porcino Manager, con Node.js 24:
@@ -33,6 +37,6 @@ Las pruebas aprobadas respaldan los comportamientos que ejercitan. No prueban qu
 
 Las descripciones funcionales adicionales proceden del código inspeccionado y de la documentación de cada proyecto. La existencia de un README, un APK mencionado o una URL de servidor no se trató como prueba de funcionamiento.
 
-Los proyectos son privados. Los resultados publicados aquí son un resumen; revisar el código o las ejecuciones originales requiere acceso.
+Ganado Manager, Porcino Manager, Cosecha Manager y GAMA son privados. El prototipo escolar es público y tiene una copia atribuida en este repositorio. Los resultados publicados aquí son un resumen; revisar el código o las ejecuciones originales requiere acceso.
 
 [Volver al portafolio](README.md)

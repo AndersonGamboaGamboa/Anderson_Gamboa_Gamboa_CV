@@ -1,0 +1,611 @@
+{
+  "htmlCount": 56,
+  "fileCount": 99,
+  "syntax": [
+    {
+      "file": "js\\calendario.js",
+      "ok": true
+    },
+    {
+      "file": "js\\contacto.js",
+      "ok": true
+    },
+    {
+      "file": "js\\control_marcas.js",
+      "ok": true
+    },
+    {
+      "file": "js\\control_vacaciones.js",
+      "ok": true
+    },
+    {
+      "file": "js\\documentos.js",
+      "ok": true
+    },
+    {
+      "file": "js\\estudiantes.js",
+      "ok": true
+    },
+    {
+      "file": "js\\gestion_personal.js",
+      "ok": true
+    },
+    {
+      "file": "js\\registro_marcas.js",
+      "ok": true
+    },
+    {
+      "file": "js\\solicitud_vacaciones.js",
+      "ok": true
+    },
+    {
+      "file": "js\\web.js",
+      "ok": true
+    },
+    {
+      "file": "aceptarPermiso.html",
+      "inline": 1,
+      "ok": true
+    },
+    {
+      "file": "calificaciones.html",
+      "inline": 1,
+      "ok": true
+    },
+    {
+      "file": "cambiarContraseniaSeguridad.html",
+      "inline": 1,
+      "ok": true
+    },
+    {
+      "file": "CrearActivo.html",
+      "inline": 1,
+      "ok": true
+    },
+    {
+      "file": "CrearInsumos.html",
+      "inline": 1,
+      "ok": true
+    },
+    {
+      "file": "CrearPermisos.html",
+      "inline": 1,
+      "ok": true
+    },
+    {
+      "file": "CrearPrematricula.html",
+      "inline": 1,
+      "ok": true
+    },
+    {
+      "file": "crearVentas.html",
+      "inline": 1,
+      "ok": true
+    },
+    {
+      "file": "DetallesPermisos.html",
+      "inline": 1,
+      "ok": true
+    },
+    {
+      "file": "EditarActivo.html",
+      "inline": 1,
+      "ok": true
+    },
+    {
+      "file": "editarCalificaciones.html",
+      "inline": 1,
+      "ok": true
+    },
+    {
+      "file": "EditarInsumos.html",
+      "inline": 1,
+      "ok": true
+    },
+    {
+      "file": "editarMatricula.html",
+      "inline": 1,
+      "ok": true
+    },
+    {
+      "file": "editarNoticia.html",
+      "inline": 1,
+      "ok": true
+    },
+    {
+      "file": "EditarPreMatricula.html",
+      "inline": 1,
+      "ok": true
+    },
+    {
+      "file": "EliminarPreMatricula.html",
+      "inline": 1,
+      "ok": true
+    },
+    {
+      "file": "IniciarSesion.html",
+      "inline": 1,
+      "ok": true
+    },
+    {
+      "file": "ListarInsumos.html",
+      "inline": 1,
+      "ok": true
+    },
+    {
+      "file": "ListarPermisos.html",
+      "inline": 1,
+      "ok": true
+    },
+    {
+      "file": "ListarPreMatricula.html",
+      "inline": 1,
+      "ok": true
+    },
+    {
+      "file": "ListarTicketsM.html",
+      "inline": 1,
+      "ok": true
+    },
+    {
+      "file": "RegistrarUsuario.html",
+      "inline": 1,
+      "ok": true
+    },
+    {
+      "file": "RestablecerContrasenia.html",
+      "inline": 1,
+      "ok": true
+    }
+  ],
+  "brokenLinks": [
+    {
+      "file": "contactenosAdmin.html",
+      "ref": "/pages/IniciarSesion.html"
+    },
+    {
+      "file": "contactenosAdmin.html",
+      "ref": "/pages/RegistrarUsuario.html"
+    },
+    {
+      "file": "contactenosAdmin.html",
+      "ref": "/pages/RestablecerContrasenia.html"
+    },
+    {
+      "file": "crearNoticias.html",
+      "ref": "css"
+    },
+    {
+      "file": "CrearPrematricula.html",
+      "ref": "listarPrematricula.html"
+    },
+    {
+      "file": "CrearPrematricula.html",
+      "ref": "listarPrematricula.html"
+    },
+    {
+      "file": "DetallesPermisos.html",
+      "ref": "listarPermisos.html"
+    },
+    {
+      "file": "EditarActivo.html",
+      "ref": "/ruta-deseada"
+    },
+    {
+      "file": "EditarPreMatricula.html",
+      "ref": "listarPrematricula.html"
+    },
+    {
+      "file": "EditarPreMatricula.html",
+      "ref": "listarPrematricula.html"
+    },
+    {
+      "file": "EliminarPreMatricula.html",
+      "ref": "listarPrematricula.html"
+    },
+    {
+      "file": "EliminarPreMatricula.html",
+      "ref": "listarPrematricula.html"
+    },
+    {
+      "file": "estudiante.html",
+      "ref": "/pages/IniciarSesion.html"
+    },
+    {
+      "file": "estudiante.html",
+      "ref": "/pages/RegistrarUsuario.html"
+    },
+    {
+      "file": "estudiante.html",
+      "ref": "/pages/RestablecerContrasenia.html"
+    },
+    {
+      "file": "listarMatricula.html",
+      "ref": "EditarMatricula.html"
+    },
+    {
+      "file": "listarNoticias.html",
+      "ref": "verNoticia.html?id=2"
+    },
+    {
+      "file": "listarNoticias.html",
+      "ref": "actualizarNoticia.html?id=2"
+    },
+    {
+      "file": "listarNoticias.html",
+      "ref": "eliminarNoticia.html?id=2"
+    },
+    {
+      "file": "ListarPreMatricula.html",
+      "ref": "crearPrematricula.html"
+    },
+    {
+      "file": "ListarPreMatricula.html",
+      "ref": "editarPrematricula.html?id=${est.id}"
+    },
+    {
+      "file": "ListarPreMatricula.html",
+      "ref": "eliminarPrematricula.html?id=${est.id}"
+    },
+    {
+      "file": "ListarTicketsM.html",
+      "ref": "crearTicket.html"
+    },
+    {
+      "file": "opcionesConstrasenia.html",
+      "ref": "restablecerContrasenia.html"
+    },
+    {
+      "file": "roles.html",
+      "ref": "/pages/IniciarSesion.html"
+    },
+    {
+      "file": "roles.html",
+      "ref": "/pages/RegistrarUsuario.html"
+    },
+    {
+      "file": "roles.html",
+      "ref": "/pages/RestablecerContrasenia.html"
+    },
+    {
+      "file": "pages\\web\\contacto.html",
+      "ref": "index.html"
+    },
+    {
+      "file": "pages\\web\\Inicio.html",
+      "ref": "index.html"
+    },
+    {
+      "file": "pages\\web\\prematricula.html",
+      "ref": "index.html"
+    },
+    {
+      "file": "pages\\web\\quienes.html",
+      "ref": "index.html"
+    },
+    {
+      "file": "pages\\web\\servicios.html",
+      "ref": "/images/comedor.jpg"
+    },
+    {
+      "file": "pages\\web\\servicios.html",
+      "ref": "/images/salon_computo.jpg"
+    },
+    {
+      "file": "pages\\web\\servicios.html",
+      "ref": "/images/actividades.jpg"
+    },
+    {
+      "file": "pages\\web\\servicios.html",
+      "ref": "/images/area_recreativa.jpg"
+    },
+    {
+      "file": "pages\\web\\servicios.html",
+      "ref": "/images/programas_especiales.jpg"
+    },
+    {
+      "file": "pages\\web\\servicios.html",
+      "ref": "/images/eventos.jpg"
+    },
+    {
+      "file": "pages\\web\\servicios.html",
+      "ref": "index.html"
+    }
+  ],
+  "pages": [
+    {
+      "file": "aceptarPermiso.html",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "file": "Calendario.html",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "file": "calificaciones.html",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "file": "cambiarContraseniaSeguridad.html",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "file": "contactenosAdmin.html",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "file": "Control_Marcas.html",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "file": "Control_Vacaciones.html",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "file": "CrearActivo.html",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "file": "CrearInsumos.html",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "file": "crearNoticias.html",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "file": "CrearPermisos.html",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "file": "CrearPrematricula.html",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "file": "CrearTicket.html",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "file": "crearVentas.html",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "file": "detallesCalificaciones.html",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "file": "detallesNoticas.html",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "file": "DetallesPermisos.html",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "file": "Documentos.html",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "file": "EditarActivo.html",
+      "status": 200,
+      "errors": [
+        "$ is not defined"
+      ]
+    },
+    {
+      "file": "editarCalificaciones.html",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "file": "EditarInsumos.html",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "file": "editarMatricula.html",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "file": "editarNoticia.html",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "file": "EditarPreMatricula.html",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "file": "eliminarMatricula.html",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "file": "eliminarNoticias.html",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "file": "EliminarPreMatricula.html",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "file": "estudiante.html",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "file": "Gestion_Personal.html",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "file": "IniciarSesion.html",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "file": "ListarActivos.html",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "file": "listarCalificaciones.html",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "file": "ListarInsumos.html",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "file": "listarMatricula.html",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "file": "listarNoticias.html",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "file": "ListarPermisos.html",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "file": "ListarPreMatricula.html",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "file": "ListarTicketsM.html",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "file": "listarVentas.html",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "file": "matricula.html",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "file": "menu.html",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "file": "noticiasClientes.html",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "file": "opcionesConstrasenia.html",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "file": "profesAdmin.html",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "file": "RegistrarUsuario.html",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "file": "Registro_Marcas.html",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "file": "RestablecerContrasenia.html",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "file": "roles.html",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "file": "Solicitud_Vacaciones.html",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "file": "temp.html",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "file": "VistaProfesoresWeb.html",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "file": "pages\\web\\contacto.html",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "file": "pages\\web\\Inicio.html",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "file": "pages\\web\\prematricula.html",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "file": "pages\\web\\quienes.html",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "file": "pages\\web\\servicios.html",
+      "status": 200,
+      "errors": []
+    }
+  ],
+  "scenarios": [
+    {
+      "name": "login-with-unregistered-values",
+      "redirectsToMenu": true
+    },
+    {
+      "name": "personnel-state-not-persisted",
+      "rows": 3,
+      "changedBeforeReload": true,
+      "resetAfterReload": true
+    }
+  ]
+}

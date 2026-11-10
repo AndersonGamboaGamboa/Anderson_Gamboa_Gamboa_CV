@@ -12,6 +12,8 @@
 
 - **GAMA · C# y ASP.NET Core MVC.** Sistema de gestión de participantes, actividades, salud y roles, organizado en capas de presentación, lógica de negocio y acceso a datos. Código revisado; compilación y recorrido funcional pendientes de verificar.
 
+- **Escuela Fausto Herrera Cordero · HTML, CSS, JavaScript y Bootstrap.** Participación en un prototipo académico colaborativo, con aportes documentados en módulos de prematrícula, permisos, tickets, activos, mantenimiento e insumos, además de ajustes de navegación. Se presenta como trabajo de frontend, sin backend operativo.
+
 ## Adaptación a una vacante
 
 Para puestos .NET/backend, presentar primero Ganado Manager. Para puestos TypeScript o móviles, presentar primero Porcino Manager y luego Cosecha Manager.
