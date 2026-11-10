@@ -13,7 +13,6 @@ Selección de proyectos de gestión agropecuaria, administrativa y educativa con
 | Porcino Manager | Control de engorde por corrales, alimentación, medicamentos y ventas | 47 pruebas móviles aprobadas en la revisión | [Ver caso](proyectos/porcino-manager.md) |
 | Cosecha Manager | Registro de recolección de café, pagos y saldos por trabajador | 13 pruebas de dominio y estados de cuenta aprobadas en la revisión | [Ver caso](proyectos/cosecha-manager.md) |
 | GAMA | Gestión de participantes, actividades, salud y roles | Revisión de arquitectura y código de autenticación; ejecución pendiente | [Ver caso](proyectos/gama.md) |
-
 | Escuela Fausto Herrera Cordero | Prototipo de gestión académica y administrativa | Aportes documentados; 56 páginas comprobadas, con limitaciones de prototipo | [Ver caso y código](proyectos/fausto-gestion-academica.md) |
 
 ### Cómo leer este portafolio
