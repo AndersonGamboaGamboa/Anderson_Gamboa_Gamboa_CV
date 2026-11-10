@@ -27,11 +27,19 @@ Se revisó el commit `8c748cba321182afbb3675e20dc6e53c3d9cef64` en una copia loc
 | Carga de las 56 páginas en Chrome mediante servidor local | Todas respondieron HTTP 200 |
 | Sintaxis de scripts externos y bloques inline | 33 comprobaciones sin errores de sintaxis |
 | Errores de JavaScript al cargar | `EditarActivo.html` produjo `$ is not defined` |
-| Referencias locales en HTML | 38 referencias sin coincidencia exacta; incluyen archivos ausentes y diferencias de mayúsculas |
+| Referencias locales en HTML | 38 apariciones hacia 23 destinos distintos: 13 apariciones con diferencias de mayúsculas y 25 sin archivo de destino coincidente |
 | Inicio de sesión con valores ficticios no registrados | Abre el menú; confirma que es una simulación, no autenticación real |
 | Cambio de estado de una persona y recarga | El estado inicial reaparece; el cambio no persiste |
 
-[Resultados detallados de la revisión](fausto-verificacion.json).
+[Primera revisión](fausto-verificacion.json) · [Segunda verificación detallada](fausto-reverificacion.json).
+
+La segunda verificación confirmó que los 99 archivos copiados coinciden con sus blobs originales en GitHub. Se utilizó un servidor local sensible a mayúsculas para evitar que Windows ocultara errores de rutas. El conteo de 38 es de apariciones de referencias en el texto HTML —incluye referencias dentro de scripts—, no de archivos únicos ni de clics fallidos.
+
+También se comprobaron seis escenarios: formulario de acceso vacío bloqueado; acceso con valores ficticios; menú accesible en sesión nueva sin login; cambio de estado del personal que se revierte al recargar; alta de personal que desaparece al recargar; y confirmación de contacto sin solicitudes de red tras pulsar Enviar. Son comprobaciones de comportamiento observado, no seis certificaciones de funcionalidad correcta.
+
+A 390 × 844 píxeles se midió desbordamiento horizontal en Inicio, Contacto y Menú; no se detectó en Login y Gestión de Personal. Es una comprobación limitada de cinco pantallas, no una auditoría completa de accesibilidad o diseño móvil.
+
+El error de EditarActivo se debe a que usa jQuery sin cargar esa biblioteca. La segunda comprobación reprodujo el mismo error.
 
 ## Estado del proyecto
 

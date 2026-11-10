@@ -1,0 +1,973 @@
+{
+  "date": "2026-11-09",
+  "sourceCommit": "8c748cba321182afbb3675e20dc6e53c3d9cef64",
+  "environment": {
+    "node": "v24.13.1",
+    "caseSensitiveServer": true,
+    "browser": "146.0.7680.164"
+  },
+  "originalFiles": 99,
+  "htmlCount": 56,
+  "syntax": [
+    {
+      "file": "js/calendario.js",
+      "ok": true
+    },
+    {
+      "file": "js/contacto.js",
+      "ok": true
+    },
+    {
+      "file": "js/control_marcas.js",
+      "ok": true
+    },
+    {
+      "file": "js/control_vacaciones.js",
+      "ok": true
+    },
+    {
+      "file": "js/documentos.js",
+      "ok": true
+    },
+    {
+      "file": "js/estudiantes.js",
+      "ok": true
+    },
+    {
+      "file": "js/gestion_personal.js",
+      "ok": true
+    },
+    {
+      "file": "js/registro_marcas.js",
+      "ok": true
+    },
+    {
+      "file": "js/solicitud_vacaciones.js",
+      "ok": true
+    },
+    {
+      "file": "js/web.js",
+      "ok": true
+    },
+    {
+      "file": "aceptarPermiso.html",
+      "inline": 1,
+      "ok": true
+    },
+    {
+      "file": "calificaciones.html",
+      "inline": 1,
+      "ok": true
+    },
+    {
+      "file": "cambiarContraseniaSeguridad.html",
+      "inline": 1,
+      "ok": true
+    },
+    {
+      "file": "CrearActivo.html",
+      "inline": 1,
+      "ok": true
+    },
+    {
+      "file": "CrearInsumos.html",
+      "inline": 1,
+      "ok": true
+    },
+    {
+      "file": "CrearPermisos.html",
+      "inline": 1,
+      "ok": true
+    },
+    {
+      "file": "CrearPrematricula.html",
+      "inline": 1,
+      "ok": true
+    },
+    {
+      "file": "crearVentas.html",
+      "inline": 1,
+      "ok": true
+    },
+    {
+      "file": "DetallesPermisos.html",
+      "inline": 1,
+      "ok": true
+    },
+    {
+      "file": "EditarActivo.html",
+      "inline": 1,
+      "ok": true
+    },
+    {
+      "file": "editarCalificaciones.html",
+      "inline": 1,
+      "ok": true
+    },
+    {
+      "file": "EditarInsumos.html",
+      "inline": 1,
+      "ok": true
+    },
+    {
+      "file": "editarMatricula.html",
+      "inline": 1,
+      "ok": true
+    },
+    {
+      "file": "editarNoticia.html",
+      "inline": 1,
+      "ok": true
+    },
+    {
+      "file": "EditarPreMatricula.html",
+      "inline": 1,
+      "ok": true
+    },
+    {
+      "file": "EliminarPreMatricula.html",
+      "inline": 1,
+      "ok": true
+    },
+    {
+      "file": "IniciarSesion.html",
+      "inline": 1,
+      "ok": true
+    },
+    {
+      "file": "ListarInsumos.html",
+      "inline": 1,
+      "ok": true
+    },
+    {
+      "file": "ListarPermisos.html",
+      "inline": 1,
+      "ok": true
+    },
+    {
+      "file": "ListarPreMatricula.html",
+      "inline": 1,
+      "ok": true
+    },
+    {
+      "file": "ListarTicketsM.html",
+      "inline": 1,
+      "ok": true
+    },
+    {
+      "file": "RegistrarUsuario.html",
+      "inline": 1,
+      "ok": true
+    },
+    {
+      "file": "RestablecerContrasenia.html",
+      "inline": 1,
+      "ok": true
+    }
+  ],
+  "references": [
+    {
+      "file": "contactenosAdmin.html",
+      "ref": "/pages/IniciarSesion.html",
+      "target": "pages/IniciarSesion.html",
+      "kind": "missing-target",
+      "caseMatch": null
+    },
+    {
+      "file": "contactenosAdmin.html",
+      "ref": "/pages/RegistrarUsuario.html",
+      "target": "pages/RegistrarUsuario.html",
+      "kind": "missing-target",
+      "caseMatch": null
+    },
+    {
+      "file": "contactenosAdmin.html",
+      "ref": "/pages/RestablecerContrasenia.html",
+      "target": "pages/RestablecerContrasenia.html",
+      "kind": "missing-target",
+      "caseMatch": null
+    },
+    {
+      "file": "crearNoticias.html",
+      "ref": "css",
+      "target": "css",
+      "kind": "missing-target",
+      "caseMatch": null
+    },
+    {
+      "file": "CrearPrematricula.html",
+      "ref": "listarPrematricula.html",
+      "target": "listarPrematricula.html",
+      "kind": "case-mismatch",
+      "caseMatch": "ListarPreMatricula.html"
+    },
+    {
+      "file": "CrearPrematricula.html",
+      "ref": "listarPrematricula.html",
+      "target": "listarPrematricula.html",
+      "kind": "case-mismatch",
+      "caseMatch": "ListarPreMatricula.html"
+    },
+    {
+      "file": "DetallesPermisos.html",
+      "ref": "listarPermisos.html",
+      "target": "listarPermisos.html",
+      "kind": "case-mismatch",
+      "caseMatch": "ListarPermisos.html"
+    },
+    {
+      "file": "EditarActivo.html",
+      "ref": "/ruta-deseada",
+      "target": "ruta-deseada",
+      "kind": "missing-target",
+      "caseMatch": null
+    },
+    {
+      "file": "EditarPreMatricula.html",
+      "ref": "listarPrematricula.html",
+      "target": "listarPrematricula.html",
+      "kind": "case-mismatch",
+      "caseMatch": "ListarPreMatricula.html"
+    },
+    {
+      "file": "EditarPreMatricula.html",
+      "ref": "listarPrematricula.html",
+      "target": "listarPrematricula.html",
+      "kind": "case-mismatch",
+      "caseMatch": "ListarPreMatricula.html"
+    },
+    {
+      "file": "EliminarPreMatricula.html",
+      "ref": "listarPrematricula.html",
+      "target": "listarPrematricula.html",
+      "kind": "case-mismatch",
+      "caseMatch": "ListarPreMatricula.html"
+    },
+    {
+      "file": "EliminarPreMatricula.html",
+      "ref": "listarPrematricula.html",
+      "target": "listarPrematricula.html",
+      "kind": "case-mismatch",
+      "caseMatch": "ListarPreMatricula.html"
+    },
+    {
+      "file": "estudiante.html",
+      "ref": "/pages/IniciarSesion.html",
+      "target": "pages/IniciarSesion.html",
+      "kind": "missing-target",
+      "caseMatch": null
+    },
+    {
+      "file": "estudiante.html",
+      "ref": "/pages/RegistrarUsuario.html",
+      "target": "pages/RegistrarUsuario.html",
+      "kind": "missing-target",
+      "caseMatch": null
+    },
+    {
+      "file": "estudiante.html",
+      "ref": "/pages/RestablecerContrasenia.html",
+      "target": "pages/RestablecerContrasenia.html",
+      "kind": "missing-target",
+      "caseMatch": null
+    },
+    {
+      "file": "listarMatricula.html",
+      "ref": "EditarMatricula.html",
+      "target": "EditarMatricula.html",
+      "kind": "case-mismatch",
+      "caseMatch": "editarMatricula.html"
+    },
+    {
+      "file": "listarNoticias.html",
+      "ref": "verNoticia.html?id=2",
+      "target": "verNoticia.html",
+      "kind": "missing-target",
+      "caseMatch": null
+    },
+    {
+      "file": "listarNoticias.html",
+      "ref": "actualizarNoticia.html?id=2",
+      "target": "actualizarNoticia.html",
+      "kind": "missing-target",
+      "caseMatch": null
+    },
+    {
+      "file": "listarNoticias.html",
+      "ref": "eliminarNoticia.html?id=2",
+      "target": "eliminarNoticia.html",
+      "kind": "missing-target",
+      "caseMatch": null
+    },
+    {
+      "file": "ListarPreMatricula.html",
+      "ref": "crearPrematricula.html",
+      "target": "crearPrematricula.html",
+      "kind": "case-mismatch",
+      "caseMatch": "CrearPrematricula.html"
+    },
+    {
+      "file": "ListarPreMatricula.html",
+      "ref": "editarPrematricula.html?id=${est.id}",
+      "target": "editarPrematricula.html",
+      "kind": "case-mismatch",
+      "caseMatch": "EditarPreMatricula.html"
+    },
+    {
+      "file": "ListarPreMatricula.html",
+      "ref": "eliminarPrematricula.html?id=${est.id}",
+      "target": "eliminarPrematricula.html",
+      "kind": "case-mismatch",
+      "caseMatch": "EliminarPreMatricula.html"
+    },
+    {
+      "file": "ListarTicketsM.html",
+      "ref": "crearTicket.html",
+      "target": "crearTicket.html",
+      "kind": "case-mismatch",
+      "caseMatch": "CrearTicket.html"
+    },
+    {
+      "file": "opcionesConstrasenia.html",
+      "ref": "restablecerContrasenia.html",
+      "target": "restablecerContrasenia.html",
+      "kind": "case-mismatch",
+      "caseMatch": "RestablecerContrasenia.html"
+    },
+    {
+      "file": "roles.html",
+      "ref": "/pages/IniciarSesion.html",
+      "target": "pages/IniciarSesion.html",
+      "kind": "missing-target",
+      "caseMatch": null
+    },
+    {
+      "file": "roles.html",
+      "ref": "/pages/RegistrarUsuario.html",
+      "target": "pages/RegistrarUsuario.html",
+      "kind": "missing-target",
+      "caseMatch": null
+    },
+    {
+      "file": "roles.html",
+      "ref": "/pages/RestablecerContrasenia.html",
+      "target": "pages/RestablecerContrasenia.html",
+      "kind": "missing-target",
+      "caseMatch": null
+    },
+    {
+      "file": "pages/web/contacto.html",
+      "ref": "index.html",
+      "target": "pages/web/index.html",
+      "kind": "missing-target",
+      "caseMatch": null
+    },
+    {
+      "file": "pages/web/Inicio.html",
+      "ref": "index.html",
+      "target": "pages/web/index.html",
+      "kind": "missing-target",
+      "caseMatch": null
+    },
+    {
+      "file": "pages/web/prematricula.html",
+      "ref": "index.html",
+      "target": "pages/web/index.html",
+      "kind": "missing-target",
+      "caseMatch": null
+    },
+    {
+      "file": "pages/web/quienes.html",
+      "ref": "index.html",
+      "target": "pages/web/index.html",
+      "kind": "missing-target",
+      "caseMatch": null
+    },
+    {
+      "file": "pages/web/servicios.html",
+      "ref": "/images/comedor.jpg",
+      "target": "images/comedor.jpg",
+      "kind": "missing-target",
+      "caseMatch": null
+    },
+    {
+      "file": "pages/web/servicios.html",
+      "ref": "/images/salon_computo.jpg",
+      "target": "images/salon_computo.jpg",
+      "kind": "missing-target",
+      "caseMatch": null
+    },
+    {
+      "file": "pages/web/servicios.html",
+      "ref": "/images/actividades.jpg",
+      "target": "images/actividades.jpg",
+      "kind": "missing-target",
+      "caseMatch": null
+    },
+    {
+      "file": "pages/web/servicios.html",
+      "ref": "/images/area_recreativa.jpg",
+      "target": "images/area_recreativa.jpg",
+      "kind": "missing-target",
+      "caseMatch": null
+    },
+    {
+      "file": "pages/web/servicios.html",
+      "ref": "/images/programas_especiales.jpg",
+      "target": "images/programas_especiales.jpg",
+      "kind": "missing-target",
+      "caseMatch": null
+    },
+    {
+      "file": "pages/web/servicios.html",
+      "ref": "/images/eventos.jpg",
+      "target": "images/eventos.jpg",
+      "kind": "missing-target",
+      "caseMatch": null
+    },
+    {
+      "file": "pages/web/servicios.html",
+      "ref": "index.html",
+      "target": "pages/web/index.html",
+      "kind": "missing-target",
+      "caseMatch": null
+    }
+  ],
+  "pages": [
+    {
+      "file": "aceptarPermiso.html",
+      "status": 200,
+      "errors": [],
+      "badResources": []
+    },
+    {
+      "file": "Calendario.html",
+      "status": 200,
+      "errors": [],
+      "badResources": []
+    },
+    {
+      "file": "calificaciones.html",
+      "status": 200,
+      "errors": [],
+      "badResources": []
+    },
+    {
+      "file": "cambiarContraseniaSeguridad.html",
+      "status": 200,
+      "errors": [],
+      "badResources": []
+    },
+    {
+      "file": "contactenosAdmin.html",
+      "status": 200,
+      "errors": [],
+      "badResources": []
+    },
+    {
+      "file": "Control_Marcas.html",
+      "status": 200,
+      "errors": [],
+      "badResources": []
+    },
+    {
+      "file": "Control_Vacaciones.html",
+      "status": 200,
+      "errors": [],
+      "badResources": []
+    },
+    {
+      "file": "CrearActivo.html",
+      "status": 200,
+      "errors": [],
+      "badResources": []
+    },
+    {
+      "file": "CrearInsumos.html",
+      "status": 200,
+      "errors": [],
+      "badResources": []
+    },
+    {
+      "file": "crearNoticias.html",
+      "status": 200,
+      "errors": [],
+      "badResources": [
+        {
+          "url": "/css",
+          "status": 404
+        }
+      ]
+    },
+    {
+      "file": "CrearPermisos.html",
+      "status": 200,
+      "errors": [],
+      "badResources": []
+    },
+    {
+      "file": "CrearPrematricula.html",
+      "status": 200,
+      "errors": [],
+      "badResources": []
+    },
+    {
+      "file": "CrearTicket.html",
+      "status": 200,
+      "errors": [],
+      "badResources": []
+    },
+    {
+      "file": "crearVentas.html",
+      "status": 200,
+      "errors": [],
+      "badResources": []
+    },
+    {
+      "file": "detallesCalificaciones.html",
+      "status": 200,
+      "errors": [],
+      "badResources": []
+    },
+    {
+      "file": "detallesNoticas.html",
+      "status": 200,
+      "errors": [],
+      "badResources": []
+    },
+    {
+      "file": "DetallesPermisos.html",
+      "status": 200,
+      "errors": [],
+      "badResources": []
+    },
+    {
+      "file": "Documentos.html",
+      "status": 200,
+      "errors": [],
+      "badResources": []
+    },
+    {
+      "file": "EditarActivo.html",
+      "status": 200,
+      "errors": [
+        "$ is not defined"
+      ],
+      "badResources": []
+    },
+    {
+      "file": "editarCalificaciones.html",
+      "status": 200,
+      "errors": [],
+      "badResources": []
+    },
+    {
+      "file": "EditarInsumos.html",
+      "status": 200,
+      "errors": [],
+      "badResources": []
+    },
+    {
+      "file": "editarMatricula.html",
+      "status": 200,
+      "errors": [],
+      "badResources": []
+    },
+    {
+      "file": "editarNoticia.html",
+      "status": 200,
+      "errors": [],
+      "badResources": []
+    },
+    {
+      "file": "EditarPreMatricula.html",
+      "status": 200,
+      "errors": [],
+      "badResources": []
+    },
+    {
+      "file": "eliminarMatricula.html",
+      "status": 200,
+      "errors": [],
+      "badResources": []
+    },
+    {
+      "file": "eliminarNoticias.html",
+      "status": 200,
+      "errors": [],
+      "badResources": []
+    },
+    {
+      "file": "EliminarPreMatricula.html",
+      "status": 200,
+      "errors": [],
+      "badResources": []
+    },
+    {
+      "file": "estudiante.html",
+      "status": 200,
+      "errors": [],
+      "badResources": []
+    },
+    {
+      "file": "Gestion_Personal.html",
+      "status": 200,
+      "errors": [],
+      "badResources": []
+    },
+    {
+      "file": "IniciarSesion.html",
+      "status": 200,
+      "errors": [],
+      "badResources": []
+    },
+    {
+      "file": "ListarActivos.html",
+      "status": 200,
+      "errors": [],
+      "badResources": []
+    },
+    {
+      "file": "listarCalificaciones.html",
+      "status": 200,
+      "errors": [],
+      "badResources": []
+    },
+    {
+      "file": "ListarInsumos.html",
+      "status": 200,
+      "errors": [],
+      "badResources": []
+    },
+    {
+      "file": "listarMatricula.html",
+      "status": 200,
+      "errors": [],
+      "badResources": []
+    },
+    {
+      "file": "listarNoticias.html",
+      "status": 200,
+      "errors": [],
+      "badResources": []
+    },
+    {
+      "file": "ListarPermisos.html",
+      "status": 200,
+      "errors": [],
+      "badResources": []
+    },
+    {
+      "file": "ListarPreMatricula.html",
+      "status": 200,
+      "errors": [],
+      "badResources": []
+    },
+    {
+      "file": "ListarTicketsM.html",
+      "status": 200,
+      "errors": [],
+      "badResources": []
+    },
+    {
+      "file": "listarVentas.html",
+      "status": 200,
+      "errors": [],
+      "badResources": []
+    },
+    {
+      "file": "matricula.html",
+      "status": 200,
+      "errors": [],
+      "badResources": []
+    },
+    {
+      "file": "menu.html",
+      "status": 200,
+      "errors": [],
+      "badResources": []
+    },
+    {
+      "file": "noticiasClientes.html",
+      "status": 200,
+      "errors": [],
+      "badResources": []
+    },
+    {
+      "file": "opcionesConstrasenia.html",
+      "status": 200,
+      "errors": [],
+      "badResources": []
+    },
+    {
+      "file": "profesAdmin.html",
+      "status": 200,
+      "errors": [],
+      "badResources": []
+    },
+    {
+      "file": "RegistrarUsuario.html",
+      "status": 200,
+      "errors": [],
+      "badResources": []
+    },
+    {
+      "file": "Registro_Marcas.html",
+      "status": 200,
+      "errors": [],
+      "badResources": []
+    },
+    {
+      "file": "RestablecerContrasenia.html",
+      "status": 200,
+      "errors": [],
+      "badResources": []
+    },
+    {
+      "file": "roles.html",
+      "status": 200,
+      "errors": [],
+      "badResources": []
+    },
+    {
+      "file": "Solicitud_Vacaciones.html",
+      "status": 200,
+      "errors": [],
+      "badResources": []
+    },
+    {
+      "file": "temp.html",
+      "status": 200,
+      "errors": [],
+      "badResources": []
+    },
+    {
+      "file": "VistaProfesoresWeb.html",
+      "status": 200,
+      "errors": [],
+      "badResources": []
+    },
+    {
+      "file": "pages/web/contacto.html",
+      "status": 200,
+      "errors": [],
+      "badResources": []
+    },
+    {
+      "file": "pages/web/Inicio.html",
+      "status": 200,
+      "errors": [],
+      "badResources": []
+    },
+    {
+      "file": "pages/web/prematricula.html",
+      "status": 200,
+      "errors": [],
+      "badResources": []
+    },
+    {
+      "file": "pages/web/quienes.html",
+      "status": 200,
+      "errors": [],
+      "badResources": []
+    },
+    {
+      "file": "pages/web/servicios.html",
+      "status": 200,
+      "errors": [],
+      "badResources": [
+        {
+          "url": "/images/comedor.jpg",
+          "status": 404
+        },
+        {
+          "url": "/images/salon_computo.jpg",
+          "status": 404
+        },
+        {
+          "url": "/images/actividades.jpg",
+          "status": 404
+        },
+        {
+          "url": "/images/area_recreativa.jpg",
+          "status": 404
+        },
+        {
+          "url": "/images/programas_especiales.jpg",
+          "status": 404
+        },
+        {
+          "url": "/images/eventos.jpg",
+          "status": 404
+        }
+      ]
+    }
+  ],
+  "mobile": [
+    {
+      "file": "pages/web/Inicio.html",
+      "width": 1232,
+      "scroll": 1232,
+      "client": 390,
+      "horizontalOverflow": true
+    },
+    {
+      "file": "pages/web/contacto.html",
+      "width": 562,
+      "scroll": 562,
+      "client": 390,
+      "horizontalOverflow": true
+    },
+    {
+      "file": "IniciarSesion.html",
+      "width": 390,
+      "scroll": 390,
+      "client": 390,
+      "horizontalOverflow": false
+    },
+    {
+      "file": "menu.html",
+      "width": 409,
+      "scroll": 409,
+      "client": 390,
+      "horizontalOverflow": true
+    },
+    {
+      "file": "Gestion_Personal.html",
+      "width": 390,
+      "scroll": 390,
+      "client": 390,
+      "horizontalOverflow": false
+    }
+  ],
+  "scenarios": [
+    {
+      "name": "login-empty-blocked",
+      "verified": true,
+      "staysOnLogin": true
+    },
+    {
+      "name": "login-arbitrary-values",
+      "verified": true,
+      "opensMenu": true
+    },
+    {
+      "name": "menu-without-login",
+      "verified": true,
+      "accessibleInFreshSession": true
+    },
+    {
+      "name": "personnel-state-reload",
+      "verified": true,
+      "changeWorks": true,
+      "persists": false,
+      "retryNote": "Initial accessible-name selector timed out; retested through the rendered toggle button using its onclick attribute."
+    },
+    {
+      "name": "personnel-add-reload",
+      "verified": true,
+      "createdInMemory": true,
+      "persists": false
+    },
+    {
+      "name": "contact-confirmation-no-send",
+      "verified": true,
+      "confirmationVisible": true,
+      "requestsAfterSubmit": 0
+    }
+  ],
+  "identicalCopies": 99,
+  "summary": {
+    "pages": 56,
+    "successfulLoads": 56,
+    "syntaxChecks": 33,
+    "syntaxFailures": 0,
+    "referenceOccurrences": 38,
+    "distinctTargets": 23,
+    "caseMismatches": 13,
+    "missingTargets": 25,
+    "pagesWithErrors": [
+      {
+        "file": "EditarActivo.html",
+        "status": 200,
+        "errors": [
+          "$ is not defined"
+        ],
+        "badResources": []
+      }
+    ],
+    "scenarioResults": [
+      {
+        "name": "login-empty-blocked",
+        "verified": true,
+        "staysOnLogin": true
+      },
+      {
+        "name": "login-arbitrary-values",
+        "verified": true,
+        "opensMenu": true
+      },
+      {
+        "name": "menu-without-login",
+        "verified": true,
+        "accessibleInFreshSession": true
+      },
+      {
+        "name": "personnel-state-reload",
+        "verified": true,
+        "changeWorks": true,
+        "persists": false,
+        "retryNote": "Initial accessible-name selector timed out; retested through the rendered toggle button using its onclick attribute."
+      },
+      {
+        "name": "personnel-add-reload",
+        "verified": true,
+        "createdInMemory": true,
+        "persists": false
+      },
+      {
+        "name": "contact-confirmation-no-send",
+        "verified": true,
+        "confirmationVisible": true,
+        "requestsAfterSubmit": 0
+      }
+    ],
+    "mobile": [
+      {
+        "file": "pages/web/Inicio.html",
+        "width": 1232,
+        "scroll": 1232,
+        "client": 390,
+        "horizontalOverflow": true
+      },
+      {
+        "file": "pages/web/contacto.html",
+        "width": 562,
+        "scroll": 562,
+        "client": 390,
+        "horizontalOverflow": true
+      },
+      {
+        "file": "IniciarSesion.html",
+        "width": 390,
+        "scroll": 390,
+        "client": 390,
+        "horizontalOverflow": false
+      },
+      {
+        "file": "menu.html",
+        "width": 409,
+        "scroll": 409,
+        "client": 390,
+        "horizontalOverflow": true
+      },
+      {
+        "file": "Gestion_Personal.html",
+        "width": 390,
+        "scroll": 390,
+        "client": 390,
+        "horizontalOverflow": false
+      }
+    ]
+  }
+}

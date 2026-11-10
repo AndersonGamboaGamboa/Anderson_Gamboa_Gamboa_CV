@@ -8,8 +8,7 @@ Fecha: 9 de noviembre de 2026.
 | Porcino Manager | 9 archivos de pruebas móviles existentes sobre la fuente revisada | 47 aprobadas, 0 fallidas | Servidor, lint, tipos, exportación y APK |
 | Cosecha Manager | 3 archivos de pruebas existentes de dominio/ajustes/estado de cuenta | 13 aprobadas, 0 fallidas | Resto de la suite, lint, tipos, exportación, autenticación y dispositivos |
 | GAMA | Inspección del árbol y código de registro, login y administración del commit e7c2a5c | Se observaron capas, BCrypt y autorización administrativa; sin ejecución | Compilación, pruebas automatizadas, base de datos e interfaz |
-
-| Escuela Fausto Herrera Cordero | Carga en Chrome de 56 páginas, 33 comprobaciones de sintaxis y 2 escenarios funcionales | Todas las páginas respondieron 200; 1 página con error JS, 38 referencias locales incorrectas; login y persistencia simulados | Flujos completos, backend, seguridad operativa y comportamiento móvil |
+| Escuela Fausto Herrera Cordero | Carga en Chrome de 56 páginas, 33 comprobaciones de sintaxis, 6 escenarios y 5 pantallas móviles | Todas las páginas respondieron 200; 1 página con error JS, 38 apariciones hacia 23 destinos incorrectos; login y persistencia simulados; desbordamiento en 3/5 pantallas móviles | Flujos completos, backend, seguridad operativa y resto de pantallas móviles |
 
 [Detalle del prototipo escolar y procedencia](proyectos/fausto-gestion-academica.md).
 
